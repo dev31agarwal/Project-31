@@ -49,7 +49,8 @@ function setup() {
 
 function draw() {
 
-  background("black");  
+  background("black");
+  Engine.update(engine)
 
   ground1.display();
   
